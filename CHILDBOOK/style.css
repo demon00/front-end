@@ -1,0 +1,17 @@
+body{
+    font-family: 'Times New Roman', sans-serif;
+}
+div{
+    padding-left:20px;
+    padding-top:15px;
+    
+}
+img{
+    width: 200px;
+}
+.train{
+    font-weight: bold;
+}
+.paint{
+    font-style: italic;
+}

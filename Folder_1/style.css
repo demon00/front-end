@@ -1,0 +1,23 @@
+  body {
+      font-family: 'Roboto', sans-serif, Arial;
+      line-height:1.5;
+      background:#DDDCDA;
+    }
+  
+   a   { 
+    text-decoration: none;
+    color:#111;
+    } 
+  .answer {
+    color:#999;
+    font-style: italic;
+    }
+   .padding {
+    padding-left:40px;
+    }
+   img{
+       width:200px;
+       height:200px;
+       position: relative;
+       padding-left: 500px;
+   }
