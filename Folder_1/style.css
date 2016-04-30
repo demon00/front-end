@@ -19,5 +19,6 @@
        width:200px;
        height:200px;
        position: relative;
-       padding-left: 500px;
+       padding-left: 1px;
+       float: right;
    }
