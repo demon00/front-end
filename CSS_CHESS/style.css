@@ -1,0 +1,23 @@
+.birthday{
+    color:green;
+}
+.champion{
+    color:red;
+    font-weight: bold;
+}
+.info{
+    background:url('extref.png') no-repeat 0 5px;
+    padding-left: 13px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.text{
+    font-style: italic;
+    color:blue;
+}
+.begin{
+    color:blue;
+    font-weight: bold;
+}
