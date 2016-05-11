@@ -1,0 +1,30 @@
+a{
+ color:red;
+ text-decoration:none;
+}
+#karpov{
+    border:2px solid red;
+    padding:20px;
+}
+#karpov p{
+    border:2px solid blue;
+    padding:10px;
+}
+#botvinik a:hover{
+    text-decoration:line-through;
+    font-weight:bold;
+}
+#kasparov p:nth-child(odd){
+    color:#ccc;
+    background:#111111;
+}
+#kasparov p:nth-child(even){
+    color:#111111;
+    background:#ccc;
+}
+p:first-letter,
+h1:first-letter
+{
+    font-size:2em;
+    color:green;
+}
