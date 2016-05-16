@@ -1,0 +1,77 @@
+@media screen and (max-width:400px){
+  li{
+      font-size: 2em;
+      float: left;
+      clear: both;
+      text-align: center;
+      min-width: 250px;
+  }
+  li{margin-right:30px;}
+  .li_5{
+      border-right:3px solid red;
+      border-left:3px solid red;
+  }
+  .li_1,
+  .li_2, 
+  .li_3,
+  .li_4{
+      border-left:3px solid red;
+  }
+  .sub_menu{
+      display: none;
+  }
+  }
+@media screen and (min-width:400px) and (max-width:600px){ 
+.sub .sub_menu{
+    display: none;
+    position: absolute;
+    margin-right: 50px;
+    margin-top:10px;
+}    
+.sub:hover .sub_menu{
+    display: block;
+}
+.sub{
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 370px;
+}
+}
+@media screen and (min-width:600px){
+    body{
+        font-size:2em;
+    }
+    li{
+        background:url("chess.png")no-repeat;
+    }
+    a{
+        padding-left: 25px;
+    }
+    .sub_menu{
+        display: none;
+    }
+}
+
+ul{
+    margin: 0;
+    padding: 10px 15px;
+    list-style: none;
+}
+a{
+    color:green;
+}
+.li_1,
+.li_2, 
+.li_3,
+.li_4 {
+    display: inline-block;
+    padding:5px 8px;
+    border-right:3px solid red;
+}
+.li_4 {
+    border-right:3px solid red;
+}
+.li_5 {
+    display: inline-block;
+    padding:5px 8px;
+}
