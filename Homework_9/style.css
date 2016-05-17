@@ -1,0 +1,110 @@
+@media screen and (max-width: 400px){
+.name{
+    font-size:1.3em;
+    font-weight: bold;
+  }
+}
+
+header{
+    width:100%;
+    min-height:120px;
+    background-color:#A40004;
+    text-align:center;
+    padding-top:20px;
+    box-shadow:0 0 30px rgba(0,0,0,0.5) inset;
+}
+.logo{
+    position:relative;
+    left:-97px;
+    top:30px;
+    font-size:24px;
+    color:#fff;
+}
+body{
+    margin: 0;
+    padding:0;
+    font-family: Arial, sans-serif; 
+}
+.big_mac,
+.Angus,
+.filet-o-fish,
+.hamburger,
+.mccheese,
+.mcchicken{
+  display: inline-block;
+  margin:20px 0 10px 20px;
+}
+
+.big_mac{
+    width: 200px;
+    height: 200px;
+    background:url('big_mac.png') no-repeat center center;
+}
+.Angus{
+    width: 200px;
+    height: 200px;
+    top:20px;
+    background:url('Angus.png') no-repeat center center;
+}
+.filet-o-fish{
+    width: 200px;
+    height: 200px;
+    background:url('filet-o-fish.png') no-repeat center center;
+}
+.hamburger{
+    width: 200px;
+    height: 200px;
+    background:url('hamburger.png') no-repeat center center;
+}
+.mccheese{
+    width: 200px;
+    height: 200px;
+    background:url('mccheese.png') no-repeat center center;
+}
+.mcchicken{
+    width: 200px;
+    height: 200px;
+    background:url('mcchicken.png') no-repeat center center;
+}
+.name {
+    padding: 5px 15px;
+    background:#008209;
+    color:#FFE700;
+    text-align: center;
+	}
+.price {
+    width: 80px;
+    padding:5px;
+    position: relative;
+    top:140px;
+    color:#FFE700;
+    background:#008209;
+    border-radius:5px;
+    
+}
+.calories {
+    width: 70px;
+    padding: 5px;
+    position: relative;
+    top: 105px;
+    left:120px;
+    color:#FF0000;
+    background:#FFC500;
+    border-radius:20px;
+    text-align: center;
+}
+.footer{
+    margin-top:30px;
+    width:100%;
+    height: 40px;
+    background:#34DA37;
+}
+.mail{
+    margin-left: 40px;
+    font-size: 14px;
+    color: #2C1FD6;
+}
+.year{
+    font-size: 10px;
+    margin-left: 40px;
+}

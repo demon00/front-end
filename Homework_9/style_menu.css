@@ -1,0 +1,31 @@
+
+ul{
+    margin: 0;
+    padding: 10px 15px;
+    list-style: none;
+}
+a{
+    color:green;
+}
+.li_1,
+.li_2, 
+.li_3
+{
+    display: inline-block;
+    padding:5px 8px;
+    border-right:3px solid red;
+}
+.li_5 {
+    padding:5px 8px;
+}
+.menu, #sub_menu {
+    display:none;
+}
+
+#sub_menu:checked ~ .menu {
+    display:block;
+}
+.sub{
+    font-size: 24px;
+    color:green;
+}
