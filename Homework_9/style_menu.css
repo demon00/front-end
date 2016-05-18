@@ -15,17 +15,19 @@ a{
     padding:5px 8px;
     border-right:3px solid red;
 }
-.li_5 {
-    padding:5px 8px;
-}
-.menu, #sub_menu {
+.menu, #go {
     display:none;
 }
 
-#sub_menu:checked ~ .menu {
+#go:checked ~ .menu {
     display:block;
 }
-.sub{
+.st{
     font-size: 24px;
     color:green;
+}
+.menu{
+    position: absolute;
+    left:380px;
+    top:40px;
 }
