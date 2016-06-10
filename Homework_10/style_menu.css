@@ -1,0 +1,49 @@
+
+ul{
+    margin: 0;
+    padding: 10px 15px;
+    list-style: none;
+}
+a{
+    color:green;
+}
+li
+{
+    display: inline-block;
+    padding:5px 8px;
+}
+
+.one, 
+.two, 
+.three {
+     border-right:3px solid red;
+}
+.four,
+.six,
+.seven,
+.eight{
+    display: block;
+}
+.menu, #go {
+    display:none;
+}
+
+#go:checked ~ .menu {
+    display:block;
+}
+.menu{
+    position: absolute;
+    left:360px;
+    top:40px;
+}
+.second, #go2 {
+    display:none;
+}
+
+#go2:checked ~ .second {
+    display:block;
+}
+.st{
+    color:green;
+    text-decoration: underline;
+}

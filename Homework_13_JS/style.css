@@ -1,0 +1,67 @@
+.bg {
+    width: 100%;
+    min-height:1024px;
+    background:url('BG.jpg') no-repeat 0 -130px;
+    position: relative;
+}
+.radar{
+    width:300px;
+    height: 200px;
+    background-color: rgba(14, 138, 227, 0.5);
+    border:20px solid #03090d;
+    border-radius: 15px;
+    position: absolute;
+    top:230px;
+    left:430px;
+}
+.znak{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border:5px solid red;
+    background-color: #fff;
+    position: relative;
+    left:240px;
+    top:10px;
+}
+.znak span{
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:5px;
+    left: 7px;
+}
+.buttom{
+    width: 130px;
+    color: #fff;
+    background-image: linear-gradient(
+        #CC0630 0%,
+        #8F0222 75%,
+        #6D0019 100%);
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 10px 10px;
+    font-size: 24px;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow:
+        inset 0 0 0 1px rgba(0, 0, 0, .2),
+        0 1px 3px #aaa;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+}
+.buttom:hover{
+    background-image: linear-gradient(
+        #a80505 0%,
+        #6e0303 75%,
+        #540505 100%);
+}
+.buttom:active{
+    background-image: linear-gradient(
+        #18cc00 0%,
+        #18a805 75%,
+        #158c06 100%);
+    color:#c9fa16;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <input type="radio" id="tab-1" name="tab">
+<input type="radio" id="tab-2" name="tab">
+<input type="radio" id="tab-3" name="tab">
+<input type="radio" id="tab-4" checked=checked name="tab">
+
+<div>
+  <label for="tab-1">Tab 1</label>
+  <label for="tab-2">Tab 2</label>
+  <label for="tab-3">Tab 3</label>
+  <label for="tab-4">Tab 4</label>
+</div>
+<div>
+  <div class="tab" data-tab="1">Contents of the first tab</div>
+  <div class="tab" data-tab="2">Contents of the second tab</div>
+  <div class="tab" data-tab="3">Contents of the third tab</div>
+  <div class="tab" data-tab="4">
+      <input type="checkbox" id="bat-5" name="bat">
+      <input type="checkbox" id="bat-6" name="bat">
+      <input type="checkbox" id="bat-7" name="bat">
+    <div>
+      <label for="bat-5">обед</label> 
+      <label for="bat-6">завтрак</label>
+      <label for="bat-7">ужин</label>
+    </div>
+    <div>
+ <div class="bat" data-bat="5">Contents of the first bat</div>
+ <div class="bat" data-bat="6">Contents of the second bat</div>
+ <div class="bat" data-bat="7">Contents of the third bat</div>   
+   </div>
+ </div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}
+div {
+  overflow: hidden;
+}
+label {
+  float: left;
+  cursor: pointer;
+  margin: .25em;
+  padding: .25em .5em;
+  border: 1px solid;
+}
+
+#tab-1:checked ~ div label[for="tab-1"],
+#tab-2:checked ~ div label[for="tab-2"],
+#tab-3:checked ~ div label[for="tab-3"],
+#tab-4:checked ~ div label[for="tab-4"],
+#bat-5:checked ~ div label[for="bat-5"],
+#bat-6:checked ~ div label[for="bat-6"],
+#bat-7:checked ~ div label[for="bat-7"]{
+  background: silver;
+}
+
+.tab,
+.bat {
+  display: none;
+  margin: .25em;
+  padding: .25em .5em;
+  border: 1px solid;
+}
+
+#tab-1:checked ~ div .tab[data-tab="1"],
+#tab-2:checked ~ div .tab[data-tab="2"],
+#tab-3:checked ~ div .tab[data-tab="3"],
+#tab-4:checked ~ div .tab[data-tab="4"],
+#bat-5:checked ~ div .bat[data-bat="5"],
+#bat-6:checked ~ div .bat[data-bat="6"],
+#bat-7:checked ~ div .bat[data-bat="7"] {
+  display: block;
+}

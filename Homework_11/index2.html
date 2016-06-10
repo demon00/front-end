@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>task 2</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+</head>
+<body>
+    <header class="page-header">
+<input type="radio" id="tab-1" name="tab" checked=checked>
+<input type="radio" id="tab-2" name="tab">
+<input type="radio" id="tab-3" name="tab">
+<input type="radio" id="tab-4" name="tab">
+
+<div>
+  <label for="tab-1">Главная</label>
+  <label for="tab-2">Расписание работы</label>
+  <label for="tab-3">Контакты</label>
+  <label for="tab-4">Меню</label>
+</div>
+<div>
+  <div class="tab" data-tab="1">
+      <img src="Logo.png"></img>
+      <div>
+         <section>
+            <!--<h1 class="day">Меню Дня</h1>-->
+            <article class="slider">
+                <input type="radio" id="btn-1" name="toggle">
+                <input type="radio" id="btn-2" name="toggle" checked>
+                <input type="radio" id="btn-3" name="toggle">
+                <article class="slider-controls">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                </article>                    
+                <article class="slider-inner">
+                    <article class="slider-slides">
+                        <img src="Omlet_semga.jpg">
+                        <img src="ekler.jpg">
+                        <img src="beftrogan.jpg">
+                    </article>                        
+                </article>
+            </article>
+        </section>
+        </div>
+  </div>
+  <div class="tab" data-tab="2">
+      <span>Расписание работы</span>
+      <table>
+          <tr>
+              <td>день недели</td>
+              <td>начало работы</td>
+              <td>время обеденного перерыва</td>
+              <td>окончание работы</td>
+          </tr>
+          <tr>
+              <td>ПН</td>
+              <td>8.00</td>
+              <td>13.00-14.00</td>
+              <td>18.00</td>
+          </tr>
+          <tr>
+              <td>ВТ</td>
+              <td>8.00</td>
+              <td>13.00-14.00</td>
+              <td>18.00</td>
+          </tr>
+          <tr>
+              <td>СР</td>
+              <td>8.00</td>
+              <td>13.00-14.00</td>
+              <td>18.00</td>
+          </tr>
+          <tr>
+              <td>ЧТ</td>
+              <td>8.00</td>
+              <td>13.00-14.00</td>
+              <td>18.00</td>
+          </tr>
+          <tr>
+              <td>ПТ</td>
+              <td>8.00</td>
+              <td>13.00-14.00</td>
+              <td>18.00</td>
+          </tr>
+          <tr>
+              <td>СБ</td>
+              <td>9.00</td>
+              <td>13.00-14.00</td>
+              <td>18.00</td>
+          </tr>
+          <tr>
+              <td>ВС</td>
+              <td>10.00</td>
+              <td>13.00-14.00</td>
+              <td>18.00</td>
+          </tr>
+      </table>
+      <img src="man.png" no-repeat></img>
+      </div>
+  <div class="tab" data-tab="3">
+  <p class="info">Адрес
+ул. Наметкина, 16, Москва, ГСП-7, 117997
+Телефон:
++7 495 719-30-01 (справочный)
++7 495 719-83-33 (факс)
+Электронная почта <span>gazprom@gazprom.ru</span>
+</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.73350276387!2d37.55422631538023!3d55.65884400670284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54d28111876bd%3A0x44c33aeff6268314!2z0YPQuy4g0J3QsNC80LXRgtC60LjQvdCwLCAxNiwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDExNzQyMA!5e0!3m2!1sru!2sby!4v1463941933430" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+  <div class="tab" data-tab="4">
+      <input type="checkbox" id="bat-5" name="bat">
+      <input type="checkbox" id="bat-6" name="bat">
+      <input type="checkbox" id="bat-7" name="bat">
+    <div class="food">
+      <label for="bat-5">Завтрак</label> 
+      <label for="bat-6">Обед</label>
+      <label for="bat-7">Ужин</label>
+    </div>
+ <div class="bat" data-bat="5">
+            <div class="group1">
+                <div class="container">
+                <img src="omleet.jpg" alt="Омлет классический">
+                  <h1>Омлет классический</h1>
+                 <p class="cost">170 р.</p>
+                </div>
+                 <div class="container">
+                 <img src="egg_fasol.jpg" alt="Яичница с фасолью">
+                  <h1>Яичница с фасолью</h1>
+                 <p class="cost">250 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="egg_glaz.jpg" alt="Яичница-глазунья">
+                 <h1>Яичница-глазунья</h1>
+                 <p class="cost">170 р.</p>
+                 </div>
+                 </div>
+                 <div class="group2">
+                <div class="container">
+                 <img src="Omlet_semga.jpg" alt="Омлет с семгой">
+                 <h1>Омлет с семгой</h1>
+                 <p class="cost">350 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="egg_elit.jpg" alt="Яичница «Санни сайд ап»">
+                 <h1>Яичница «Санни сайд ап»</h1>
+                 <p class="cost">350 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="egg_benedict.jpg" alt="Яйца «Бенедикт»">
+                 <h1>Яйца «Бенедикт»</h1>
+                 <p class="cost">250 р.</p>
+                 </div>
+                </div>
+             </div>
+ <div class="bat" data-bat="6">
+              <div class="group2">
+                <div class="container">
+                <img src="beftrogan.jpg" alt="Классический бефстроганов">
+                  <h1>Классический бефстроганов</h1>
+                 <p class="cost">1100р.</p>
+                </div>
+                 <div class="container">
+                 <img src="ciplen.jpg" alt="Цыпленок табака">
+                  <h1>Цыпленок табака</h1>
+                 <p class="cost">980 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="darada.jpg" alt="Дорада запеченная">
+                 <h1>Дорада запеченная</h1>
+                 <p class="cost">1100р.</p>
+                 </div>
+                 </div>
+                 <div class="group2">
+                <div class="container">
+                 <img src="kotleta.jpg" alt="Котлеты из рубленого судака">
+                 <h1>Котлеты из рубленого судака</h1>
+                 <p class="cost">850 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="pechen.jpg" alt="Жареная телячья печень">
+                 <h1>Жареная телячья печень</h1>
+                 <p class="cost">650 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="golubec.jpg" alt="олубцы со свининой ">
+                 <h1>Голубцы со свининой </h1>
+                 <p class="cost">890 р.</p>
+                 </div>
+             </div>
+             </div>
+ <div class="bat" data-bat="7">
+             <div class="group2">
+                <div class="container one">
+                <img src="Cheesecake.jpg" alt="Творожный чизкейк">
+                  <h1>Творожный чизкейк</h1>
+                 <p class="cost">350 р.</p>
+                </div>
+                 <div class="container">
+                 <img src="ekler.jpg" alt="Авторский эклер">
+                  <h1>Авторский эклер</h1>
+                 <p class="cost">350 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="napol.jpg" alt="«Наполеон»">
+                 <h1>«Наполеон»</h1>
+                 <p class="cost">440 р.</p>
+                 </div>
+                 </div>
+                 <div class="group2">
+                <div class="container">
+                 <img src="pirog.jpg" alt="Яблочный пирог">
+                 <h1>Яблочный пирог</h1>
+                 <p class="cost">650 р.</p>
+                 </div>
+                 <div class="container">
+                 <img src="tort.jpg" alt="Сливочно-шоколадный торт">
+                 <h1>Сливочно-шоколадный торт</h1>
+                 <p class="cost">490 р.</p>
+                 </div>
+                 <div class="container six">
+                 <img src="tryfel.jpg" alt="Трюфель ">
+                 <h1>Трюфель </h1>
+                 <p class="cost">60р.</p>
+                 </div>
+             </div>   
+ </div>
+ </div>
+    </header>
+    
+     <footer class="page-footer">
+           © 2003–2016 ПАО «Газпром» Контактная информация
+        </footer> 
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        .a{ 
+            order:3;
+            background:red;
+        }
+        .b{ 
+            order:4;
+            background:green;
+        }
+        .c{ 
+            order:2;
+            background:blue;
+
+        }
+        .d{ 
+            order:1;
+            background:yellow;
+        }
+        .abcd{
+            display: flex;
+            padding:3px;
+            border:1px solid red;
+            align-items:flex-start;
+            
+        }
+        div div{
+            flex-basis:60px;
+             flex-grow:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="abcd">
+        <div class="a">a<br><br></div>
+        <div class="b">b</div>
+        <div class="c">c</div>
+        <div class="d">d</div>
+    </div>
+</body>
+</html>

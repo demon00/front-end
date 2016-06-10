@@ -1,43 +1,60 @@
+ul{
+    padding: 10px 15px;
+    list-style: none;
+}
+a{
+    color:green;
+}
+
+
 @media screen and (max-width:400px){
   li{
-      font-size: 2em;
+      font-size: 28px;
       float: left;
       clear: both;
       text-align: center;
       min-width: 250px;
   }
-  li{margin-right:30px;}
-  .li_5{
-      border-right:3px solid red;
-      border-left:3px solid red;
+  li{
+      margin-right:30px;
   }
   .li_1,
   .li_2, 
   .li_3,
-  .li_4{
+  .li_4,
+  .li_5{
       border-left:3px solid red;
+      border-right:3px solid red;
   }
-  .sub_menu{
-      display: none;
-  }
-  }
-@media screen and (min-width:400px) and (max-width:600px){ 
-.sub .sub_menu{
+li:nth-of-type(4) a:only-child{
     display: none;
-    position: absolute;
-    margin-right: 50px;
-    margin-top:10px;
+} 
+  }
+@media screen and (min-width:401px) and (max-width:600px){ 
+.main-menu .sub_menu{
+    display: none;
 }    
-.sub:hover .sub_menu{
-    display: block;
+.main-menu > li:hover .sub-menu{
+   display:block;
 }
-.sub{
+.main-menu .active{
     position: absolute;
     margin-top: -22px;
     margin-left: 370px;
 }
+
+  .li_1,
+  .li_2, 
+  .li_3{
+      border-left:3px solid red;
+      display: inline-block;
+      padding:5px 8px;
+  }
+  .li_3{
+      border-right: 3px solid red;
+  }
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:601px){
     body{
         font-size:2em;
     }
@@ -47,20 +64,7 @@
     a{
         padding-left: 25px;
     }
-    .sub_menu{
-        display: none;
-    }
-}
-
-ul{
-    margin: 0;
-    padding: 10px 15px;
-    list-style: none;
-}
-a{
-    color:green;
-}
-.li_1,
+    .li_1,
 .li_2, 
 .li_3,
 .li_4 {
@@ -68,10 +72,5 @@ a{
     padding:5px 8px;
     border-right:3px solid red;
 }
-.li_4 {
-    border-right:3px solid red;
 }
-.li_5 {
-    display: inline-block;
-    padding:5px 8px;
-}
+   

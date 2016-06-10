@@ -108,3 +108,12 @@ body{
     font-size: 10px;
     margin-left: 40px;
 }
+
+
+
+
+
+.main-menu{
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;

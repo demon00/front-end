@@ -1,0 +1,7 @@
+.menu, #go {
+    display:none;
+}
+
+#go:checked ~ .menu {
+    display:block;
+}
